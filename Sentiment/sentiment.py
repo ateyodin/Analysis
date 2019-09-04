@@ -2,11 +2,11 @@
 import tweepy
 from textblob import TextBlob
 
-consumer_key = 'zGpPKUIsK9OiDts52xPjM115w'
-consumer_key_secret = 'SRWlPssk83FjLC8Gzte2Jm6QhwxkswCAtr0sFi0gD0F5MTfpyA'
+consumer_key = 'your consumer key'
+consumer_key_secret = 'your consumer key secrey'
 
-access_token = '195479346-gRyGSgxKl4PgGtGeTLYuZdQV2zpscvSOMdUYdmZU'
-access_token_secret = 'VI10pMpk3BDY4S1TvZHBfoBJBiui4uBTdtaW4hJQS0Dbu'
+access_token = 'your access token'
+access_token_secret = 'your access token secret'
 
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_key_secret)
@@ -27,7 +27,3 @@ for tweet in public_tweets:
 		print ('Negative')
 	print("")
 
-    #elif analysis.sentiment[0]<0:
-		#print ('Negative')
-    #else:
-        #print ('Neutral')
